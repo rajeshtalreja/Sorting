@@ -10,7 +10,23 @@ public class SelectionSort {
 		selectionSort(arr);
 		System.out.println(Arrays.toString(arr));
 	}
-	
+	/**
+	 * In selection sort we find the minimum of list from 0 to n and put it in the first position
+	 * then minimum in the list from 1 to n and put it in 2nd position and so on
+	 * 
+	 * Complexity
+	 * 
+	 * Time
+	 * 
+	 * Best 	Average 	Worst
+	 * O(n2)	O(n2)		O(n2)
+	 * 
+	 * Space
+	 * O(1)
+	 * 
+	 * 
+	 * @param arr
+	 */
 	public static void selectionSort(int arr[]) {
 		for(int i=0;i<arr.length-1;i++) {
 			int minIndex = findMin(arr,i+1,arr.length);
