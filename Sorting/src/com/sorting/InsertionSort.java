@@ -12,6 +12,20 @@ public class InsertionSort {
 	}
 	
 	public static void insertionSort(int arr[]) {
+		
+		/**
+		 * Insertion sort is good for the list which is almost sorted.
+		 * 
+		 * Complexity 
+		 * 
+		 * Best			Average		Worst
+		 * O(n)			O(n2)		O(n2)
+		 * 
+		 * The best case occurs when the list is already sorted so the inner loop will not execute so it will be O(n)
+		 * This is the best sorting algorithm when you know that the list is almost sorted like { 4 9 10 25 20 }.
+		 * 
+		 */
+		
 		for(int i=1;i<arr.length;i++) {
 			int temp = arr[i];
 			int j=i-1;
