@@ -18,8 +18,13 @@ public class InsertionSort {
 		 * 
 		 * Complexity 
 		 * 
+		 * Time 
+		 * 
 		 * Best			Average		Worst
 		 * O(n)			O(n2)		O(n2)
+		 * 
+		 * Space
+		 * O(1) - temp space
 		 * 
 		 * The best case occurs when the list is already sorted so the inner loop will not execute so it will be O(n)
 		 * This is the best sorting algorithm when you know that the list is almost sorted like { 4 9 10 25 20 }.
